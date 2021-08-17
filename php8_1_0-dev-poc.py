@@ -21,7 +21,7 @@ def vCheck(version:str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-url", help="t", required=True)
-    parser.add_argument("-cmd", help="t", required=True)
+    parser.add_argument("-url", help="The vulnerable URL is passed to this argument", required=True)
+    parser.add_argument("-cmd", help="Command to run on the box is passed to this argument", required=True)
     args = parser.parse_args()
     main(args.url, args.cmd)
