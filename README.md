@@ -26,4 +26,4 @@ Launching the script with the required arguments
 python3 php8_1_0-dev-poc.py -url https://example.com/ -cmd 'uname -a'
 ```
 
-![Script running](photo.png)
+![Script running](photo.PNG)
